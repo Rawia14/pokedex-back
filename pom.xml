@@ -104,8 +104,17 @@
            <failOnError>false</failOnError>
           </configuration>
         </plugin>
-      </plugins>
+	 </plugins>
 	</build>
+
+		<distributionManagement>
+		  <repository> 
+		    <id>github</id>
+		    <name>Github Rawia apache maven packages</name>
+		    <url>http://maven.pkg.github.com/rawia14/pokedex-back</url>
+          </repository>
+		  </distributionManagement>
+      
 	
 
 </project>
