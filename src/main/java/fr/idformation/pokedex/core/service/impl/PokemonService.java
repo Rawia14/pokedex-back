@@ -22,7 +22,7 @@ public final class PokemonService implements IPokemonService {
 	}
 
 	@Override
-	public List<Pokemon> getAllPokemonsFilteredByName(final String name) {
+	public List<Pokemon> getAllPokemonsFilteredByName( String name) {
 		return pokemonRepo.findByNameStartingWith(name);
 	}
 
