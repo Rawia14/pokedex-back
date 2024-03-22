@@ -107,14 +107,12 @@
 	 </plugins>
 	</build>
 
-		<distributionManagement>
-		  <repository> 
+	<distributionManagement>
+		<repository> 
 		    <id>github</id>
 		    <name>Github Rawia apache maven packages</name>
 		    <url>http://maven.pkg.github.com/rawia14/pokedex-back</url>
-          </repository>
-		  </distributionManagement>
+        </repository>
+	</distributionManagement>
       
-	
-
 </project>
