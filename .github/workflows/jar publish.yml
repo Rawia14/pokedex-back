@@ -16,7 +16,7 @@ jobs:
             distribution: 'temurin'
             
     - name: deploy with Maven
-      run: mvn -B -DeskipTests deploy
+      run: mvn -B -DskipTests deploy
       env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
